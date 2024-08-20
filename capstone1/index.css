@@ -1,0 +1,92 @@
+body {
+    font-family: 'Playwrite AU SA', cursive;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#landing {
+    background-color: #333;
+    color: #fff;
+}
+
+#landing img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#landing .text-start {
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+#projects {
+    background-color: #fff;
+}
+
+#tools {
+    background-color: #333;
+    color: #fff;
+}
+
+#tools img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-weight: bold;
+}
+
+#contact h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact .row.mb-4.justify-content-center {
+    margin-bottom: 30px;
+}
+
+#contact i {
+    margin: 0 20px; /* Increase space between icons */
+}
+
+#contact .form-control {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#contact .btn-secondary {
+    border: none;
+    width: 100%; /* Full-width button to match input fields */
+}
+
+#contact .btn-secondary:hover {
+    background-color: #2b468b; /* Darker shade on hover */
+}
+
+#contact .form-label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+}
+
+#contact iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
